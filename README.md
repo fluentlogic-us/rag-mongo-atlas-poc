@@ -1,7 +1,7 @@
 # rag-mongo-atlas-poc
 Prototype to do Retrieval Augmented Generation with MongoDB Atlas
 
-## steps to embed.
+## Steps to store embeddings
 1. Knowledge Source Define your documents or data — e.g., PDFs, text files, website content.
 2. Ingestion & Indexing Split documents into chunks.
 3. Embed the chunks using an embedding model (e.g., OpenAI Embeddings).
@@ -13,3 +13,9 @@ Prototype to do Retrieval Augmented Generation with MongoDB Atlas
 3. Pass the retrieved chunks (as context) along with the user’s query into an LLM (e.g., OpenAI GPT) to generate the final answer.
 
 
+| Step                |      Tool      | 
+|-----------------    |:--------------:|
+| Embedding Model     |  OpenAI Embeddings  |
+| Vector Store        |  MongoDB Atlas Search |
+| LLM                 | OpenAI GPT-4/3.5 |
+| Framework           |   LangChain      |
