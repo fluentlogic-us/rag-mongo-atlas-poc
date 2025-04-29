@@ -1,7 +1,7 @@
 # rag-mongo-atlas-poc
 Prototype to do Retrieval Augmented Generation with MongoDB Atlas
 
-##steps
+## steps to embed.
 1. Knowledge Source Define your documents or data — e.g., PDFs, text files, website content.
 2. Ingestion & Indexing Split documents into chunks.
 3. Embed the chunks using an embedding model (e.g., OpenAI Embeddings).
